@@ -23,7 +23,8 @@ coreKubicProjectPeriodic(
     masterCount: env.MASTER_COUNT.toInteger(),
     workerCount: env.WORKER_COUNT.toInteger()
 ) {
-    // empty preBootstrapBody
+    // preBootstrapBody
+    echo "network emulation preBootstrapBody"
 } {
     stage('Setup Network Emulation') {
       // setup netem on all hosts
