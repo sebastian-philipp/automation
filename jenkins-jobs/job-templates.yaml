@@ -19,7 +19,7 @@
           discover-pr-forks-strategy: current
           discover-pr-forks-trust: contributors
           discover-pr-origin: current
-          # TODO: Change to continuous-integration/jenkins/integration
+          # TODO: Change to "Jenkins/Integration"
           notification-context: continuous-integration/jenkins
           filter-head-regex: ^(master|release\-\d\.\d|PR\-\d+)$
 
@@ -43,7 +43,7 @@
           discover-pr-forks-strategy: current
           discover-pr-forks-trust: contributors
           discover-pr-origin: current
-          notification-context: continuous-integration/jenkins/housekeeping
+          notification-context: "Jenkins/Housekeeping"
           filter-head-regex: ^(master|release\-\d\.\d|PR\-\d+)$
 
 - job-template:
@@ -66,5 +66,5 @@
           discover-pr-forks-strategy: current
           discover-pr-forks-trust: contributors
           discover-pr-origin: current
-          notification-context: continuous-integration/jenkins/flake8
+          notification-context: "Jenkins/Flake8"
           filter-head-regex: ^(master|release\-\d\.\d|PR\-\d+)$

@@ -61,5 +61,5 @@
           discover-pr-forks-strategy: current
           discover-pr-forks-trust: contributors
           discover-pr-origin: current
-          notification-context: "Jenkins: Jenkins Job Builder"
+          notification-context: "Jenkins/Jenkins Job Builder"
           filter-head-regex: ^(master|release\-\d\.\d|PR\-\d+)$
