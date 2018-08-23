@@ -1,0 +1,7 @@
+.swp
+.terraform/
+kubic-kvm
+terraform.log
+terraform.tfstate
+terraform.tfstate.backup
+
